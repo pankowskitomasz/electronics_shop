@@ -3,14 +3,22 @@ $bg__blend--type: multiply;
 $bg__classes:
     "error",
     "comingsoon",
-    "privacy";
+    "privacy",
+    "contact",
+    "user";
 $bg__comingsoon-img: "../img/shop.jpg";
+$bg__contact-img: 
+    "../img/contact.jpg",
+    "../img/shop.jpg";
 $bg__error-img: "../img/shop.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
+$bg__user-img: "../img/privacy.jpg";
 $bg__aoa:
     $bg__error-img,
     $bg__comingsoon-img,
-    $bg__privacy-img;
+    $bg__privacy-img,
+    $bg__contact-img,
+    $bg__user-img;
 $body__min-height: 100%;
 $border__param: 1px solid;
 $border__radius: 30px;
@@ -18,6 +26,8 @@ $color__bg-1: #bbb;
 $color__black: #121212;
 $color__blue: #1cafed;
 $color__dark: #333;
+$color__dark-gray: #777;
+$color__gray: #cdcdcd;
 $color__orange: #d94509;
 $color__white: #fff;
 $color__transparent: transparent;
@@ -25,6 +35,8 @@ $font-logo__family: 'Open Sans';
 $font-logo__size: 32px;
 $font-main__family: 'Open Sans';
 $font-main__size: 16px;
+$header__height: 64px;
+$hover-contrast: contrast(0.6);
 $section__min-height: 100vh;
 $box_shadow: 0 0 3px $color__dark;
 $text__shadow--dark: 0 0 3px $color__dark;

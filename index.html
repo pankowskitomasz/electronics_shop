@@ -6,10 +6,12 @@
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="node_modules/material-components-web/dist/material-components-web.min.css">
-    <title>Electronics Shop | Coming soon.</title>
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <title>Electronics Shop | Home</title>
 </head>
-<body>
-    <header class="mdc-top-app-bar mdc-theme--background position-absolute bg-white shadow">
+<body class="bg-gray">
+    <header class="mdc-top-app-bar border-none bg-white border-b border-dark shadow">
         <nav class="mdc-top-app-bar__row">
             <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
                 <a href="index.html" class="font-logo">
@@ -19,28 +21,441 @@
                     </span>
                 </a>
             </div>
+            <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end d-block desktop-expand">
+                <button class="mdc-top-app-bar__action-item mdc-icon-button nav-menu-icon">
+                    <div class="mdc-icon-button__ripple"></div>
+                    <span class="fa fa-bars text-orange -m-05 d-block"></span>                    
+                </button>
+                <div class="nav-menu text-right">
+                    <a href="index.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-dark-gray">Home</span>                    
+                    </a>
+                    <a href="categories.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-dark-gray">Categories</span>                    
+                    </a>
+                    <a href="contact.html" class="mdc-top-app-bar__action-item mdc-button nav-item mr-2">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-dark-gray">Contact</span>                    
+                    </a>
+                    <a href="cart.html" class="mdc-top-app-bar__action-item mdc-button nav-item mr-2">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-dark-gray">
+                            <span class="fa fa-shopping-cart text-lg text-orange"></span>
+                            $0.00
+                        </span>                                         
+                    </a>
+                    <a href="user.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-dark-gray">Login</span>                    
+                    </a>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="error-s1 mdc-layout-grid mdc-layout-grid__inner">
-            <div class="mdc-layout-grid__cell--span-12  mdc-layout-grid__cell--align-middle text-center">
-                <div class="mdc-typography--headline6 text-white font-bold text-shadow-dark">
-                    <h2>Coming soon.</h2>
-                    <p>
-                        Hi, we are not ready yet, however we are staring soon.<br>
-                        Please visit us again in a while.
-                    </p>
+        <section class="index-s1 mdc-layout-grid mdc-layout-grid__inner pt-header minh-25vh">
+            <div class="mdc-layout-grid__cell--span-12  mdc-layout-grid__cell--align-middle text-center pt-2">
+                <div class="owl-carousel mdc-card mdc-card--outlined minh-25vh shadow" id="index-s1-owl">
+                    <div class="bg-black text-white">
+                        <img src="img/products/product_0001.jpg" alt="slide" class="img-fit-30vh">
+                        <div class="position-absolute top-0 left-0 p-2 text-shadow-dark">
+                            <h1 class="m-0">Notebook MC-PRO</h1>
+                            <h2 class="text-lg text-orange m-0 p-1">
+                                $566.0 <del>$799.0</del>
+                            </h2>
+                        </div>
+                        <div class="position-absolute bottom-0 right-0 p-2">
+                            <a href="product.html?id=0001" class="mdc-button mdc-button--raised bg-orange">
+                                <div class="mdc-button__ripple"></div>
+                                <div class="mdc-button__label text-white">
+                                    See more
+                                </div>
+                            </a>
+                            <button href="#" class="mdc-button mdc-button--raised bg-orange">
+                                <div class="mdc-button__ripple"></div>
+                                <div class="mdc-button__label text-white">
+                                    Add to Cart
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bg-black text-white">
+                        <img src="img/products/product_0002.jpg" alt="slide" class="img-fit-30vh">
+                        <div class="position-absolute top-0 left-0 p-2 text-shadow-dark">
+                            <h1 class="m-0">Headphones X-Spike 5</h1>
+                            <h2 class="text-lg text-orange m-0 p-1">
+                                $166.0 <del>$189.0</del>
+                            </h2>
+                        </div>
+                        <div class="position-absolute bottom-0 right-0 p-2">
+                            <a href="product.html?id=0002" class="mdc-button mdc-button--raised bg-orange">
+                                <div class="mdc-button__ripple"></div>
+                                <div class="mdc-button__label text-white">
+                                    See more
+                                </div>
+                            </a>
+                            <button href="#" class="mdc-button mdc-button--raised bg-orange">
+                                <div class="mdc-button__ripple"></div>
+                                <div class="mdc-button__label text-white">
+                                    Add to Cart
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bg-black text-white">
+                        <img src="img/products/product_0003.jpg" alt="slide" class="img-fit-30vh">
+                        <div class="position-absolute top-0 left-0 p-2 text-shadow-dark">
+                            <h1 class="m-0">Smartwatch F7</h1>
+                            <h2 class="text-lg text-orange m-0 p-1">
+                                $166.0 <del>$189.0</del>
+                            </h2>
+                        </div>
+                        <div class="position-absolute bottom-0 right-0 p-2">
+                            <a href="product.html?id=0003" class="mdc-button mdc-button--raised bg-orange">
+                                <div class="mdc-button__ripple"></div>
+                                <div class="mdc-button__label text-white">
+                                    See more
+                                </div>
+                            </a>
+                            <button href="#" class="mdc-button mdc-button--raised bg-orange">
+                                <div class="mdc-button__ripple"></div>
+                                <div class="mdc-button__label text-white">
+                                    Add to Cart
+                                </div>
+                            </button>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
+        <section class="index-s2 mdc-layout-grid mdc-layout-grid__inner minh-25vh">
+            <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-3-desktop  mdc-layout-grid__cell--align-top">
+                <a href="categories.html?category=gaming" class="d-block hover-contrast">
+                    <div class="mdc-card mdc-card--outlined minh-25vh shadow bg-black">
+                        <img src="img/categories/gaming.jpg" alt="slide" class="img-fit-30vh radius-5">
+                        <div class="position-absolute bottom-0 left-0 p-2 text-shadow-dark w-100 text-center">
+                            <h4 class="m-0 text-white opacity-8">Gaming</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-3-desktop  mdc-layout-grid__cell--align-top">
+                <a href="categories.html?category=photography" class="d-block hover-contrast">
+                    <div class="mdc-card mdc-card--outlined minh-25vh shadow bg-black">
+                        <img src="img/categories/photo.jpg" alt="slide" class="img-fit-30vh radius-5">
+                        <div class="position-absolute bottom-0 left-0 p-2 text-shadow-dark w-100 text-center">
+                            <h4 class="m-0 text-white opacity-8">Photography</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-3-desktop  mdc-layout-grid__cell--align-top">
+                <a href="categories.html?category=smartphones" class="d-block hover-contrast">
+                    <div class="mdc-card mdc-card--outlined minh-25vh shadow bg-black">
+                        <img src="img/categories/smartphones.jpg" alt="slide" class="img-fit-30vh radius-5">
+                        <div class="position-absolute bottom-0 left-0 p-2 text-shadow-dark w-100 text-center">
+                            <h4 class="m-0 text-white opacity-8">Smartphones</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-3-desktop  mdc-layout-grid__cell--align-top">
+                <a href="categories.html?category=notebooks" class="d-block hover-contrast">
+                    <div class="mdc-card mdc-card--outlined minh-25vh shadow bg-orange">
+                        <img src="img/categories/notebooks.jpg" alt="slide" class="img-fit-30vh radius-5">
+                        <div class="position-absolute bottom-0 left-0 p-2 text-shadow-dark w-100 text-center">
+                            <h4 class="m-0 text-white opacity-8">Notebooks</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="index-s3 mdc-layout-grid mdc-layout-grid__inner minh-50vh">
+            <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-3-tablet mdc-layout-grid__cell--span-3-desktop  mdc-layout-grid__cell--align-top">
+                <div class="mdc-card mdc-card--outlined minh-50vh shadow">
+                    <h4 class="text-left m-1 p-1 font-thin text-orange border-b border-orange">
+                        Categories
+                    </h4>
+                    <ul class="mdc-list">
+                        <li class="mdc-list-item" tabindex="0">
+                            <a href="categories.html?category=audio">
+                                <span class="mdc-list-item__ripple"></span>
+                                <span class="mdc-list-item__text text-dark-gray">Audio</span>
+                            </a>
+                        </li>
+                        <li class="mdc-list-item">
+                            <a href="categories.html?category=gaming">
+                                <span class="mdc-list-item__ripple"></span>
+                                <span class="mdc-list-item__text text-dark-gray">Gaming</span>
+                            </a>
+                        </li>
+                        <li class="mdc-list-item">
+                            <a href="categories.html?category=notebooks">
+                                <span class="mdc-list-item__ripple"></span>
+                                <span class="mdc-list-item__text text-dark-gray">Notebooks</span>
+                            </a>
+                        </li>
+                        <li class="mdc-list-item">
+                            <a href="categories.html?category=photography">
+                                <span class="mdc-list-item__ripple"></span>
+                                <span class="mdc-list-item__text text-dark-gray">Photography</span>
+                            </a>
+                        </li>
+                        <li class="mdc-list-item">
+                            <a href="categories.html?category=smartphones">
+                                <span class="mdc-list-item__ripple"></span>
+                                <span class="mdc-list-item__text text-dark-gray">Smartphones</span>
+                            </a>
+                        </li>
+                        <li class="mdc-list-item">
+                            <a href="categories.html?category=tv">
+                                <span class="mdc-list-item__ripple"></span>
+                                <span class="mdc-list-item__text text-dark-gray">TV</span>
+                            </a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-5-tablet mdc-layout-grid__cell--span-9-desktop  mdc-layout-grid__cell--align-top">
+                <div class="mdc-card mdc-card--outlined minh-50vh shadow p-2 mb-3">
+                    <h4 class="border-b border-orange m-0 font-thin mb-2 text-orange">
+                        Smartphones
+                    </h4>
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-desktop border border-gray">
+                            <a href="product.html?id=0004" class="text-center">
+                                <img src="img/products/product_0004.jpg" alt="product" class="img-fit-25vh">
+                                <div class="text-orange text-center mb-1">
+                                    <h4 class="m-0 mb-1">
+                                        Smartphone A
+                                    </h4>
+                                    <h3 class="m-0 font-thin">
+                                        $199.0
+                                    </h3>                                    
+                                </div>
+                            </a>
+                            <div class="text-center p-1">
+                                <button class="mdc-button mdc-button-raised rounded-2 bg-orange">
+                                    <div class="mdc-button__ripple"></div>
+                                    <span class="mdc-button__label text-white">
+                                        Add to Cart
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-desktop border border-gray">
+                            <a href="product.html?id=0005" class="text-center">
+                                <img src="img/products/product_0005.jpg" alt="product" class="img-fit-25vh">
+                                <div class="text-orange text-center mb-1">
+                                    <h5 class="m-0 mb-1">
+                                        Smartphone B
+                                    </h5>
+                                    <h3 class="m-0 font-thin">
+                                        $169.0
+                                    </h3>                                    
+                                </div>
+                            </a>
+                            <div class="text-center p-1">
+                                <button class="mdc-button mdc-button-raised rounded-2 bg-orange">
+                                    <div class="mdc-button__ripple"></div>
+                                    <span class="mdc-button__label text-white">
+                                        Add to Cart
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-desktop border border-gray">
+                            <a href="product.html?id=0006" class="text-center">
+                                <img src="img/products/product_0006.jpg" alt="product" class="img-fit-25vh">
+                                <div class="text-orange text-center mb-1">
+                                    <h5 class="m-0 mb-1">
+                                        Smartphone C
+                                    </h5>
+                                    <h3 class="m-0 font-thin">
+                                        $169.0
+                                    </h3>                                    
+                                </div>
+                            </a>
+                            <div class="text-center p-1">
+                                <button class="mdc-button mdc-button-raised rounded-2 bg-orange">
+                                    <div class="mdc-button__ripple"></div>
+                                    <span class="mdc-button__label text-white">
+                                        Add to Cart
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdc-card mdc-card--outlined minh-50vh shadow p-2 mb-3">
+                    <h4 class="border-b border-orange m-0 font-thin mb-2 text-orange">
+                        Notebooks
+                    </h4>
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-desktop border border-gray">
+                            <a href="product.html?id=0007" class="text-center">
+                                <img src="img/products/product_0007.jpg" alt="product" class="img-fit-25vh">
+                                <div class="text-orange text-center mb-1">
+                                    <h4 class="m-0 mb-1">
+                                        Notebook A
+                                    </h4>
+                                    <h3 class="m-0 font-thin">
+                                        $599.0
+                                    </h3>                                    
+                                </div>
+                            </a>
+                            <div class="text-center p-1">
+                                <button class="mdc-button mdc-button-raised rounded-2 bg-orange">
+                                    <div class="mdc-button__ripple"></div>
+                                    <span class="mdc-button__label text-white">
+                                        Add to Cart
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-desktop border border-gray">
+                            <a href="product.html?id=0008" class="text-center">
+                                <img src="img/products/product_0008.jpg" alt="product" class="img-fit-25vh">
+                                <div class="text-orange text-center mb-1">
+                                    <h5 class="m-0 mb-1">
+                                        Notebook B
+                                    </h5>
+                                    <h3 class="m-0 font-thin">
+                                        $469.0
+                                    </h3>                                    
+                                </div>
+                            </a>
+                            <div class="text-center p-1">
+                                <button class="mdc-button mdc-button-raised rounded-2 bg-orange">
+                                    <div class="mdc-button__ripple"></div>
+                                    <span class="mdc-button__label text-white">
+                                        Add to Cart
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-4-desktop border border-gray">
+                            <a href="product.html?id=0009" class="text-center">
+                                <img src="img/products/product_0009.jpg" alt="product" class="img-fit-25vh">
+                                <div class="text-orange text-center mb-1">
+                                    <h5 class="m-0 mb-1">
+                                        Notebook C
+                                    </h5>
+                                    <h3 class="m-0 font-thin">
+                                        $769.0
+                                    </h3>                                    
+                                </div>
+                            </a>
+                            <div class="text-center p-1">
+                                <button class="mdc-button mdc-button-raised rounded-2 bg-orange">
+                                    <div class="mdc-button__ripple"></div>
+                                    <span class="mdc-button__label text-white">
+                                        Add to Cart
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <section class="index-s4 mdc-layout-grid mdc-layout-grid__inner minh-25vh">
+            <div class="mdc-layout-grid__cell--span-12  mdc-layout-grid__cell--align-middle text-left">
+                <h4 class="border-b border-dark-gray text-dark-gray m-0 font-thin">
+                    Popular brands:
+                </h4>
+            </div>
+            <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+                <a href="categories.html?brandid=0001">
+                    <img src="img/brands/brand_1.png" alt="brand logo">
+                </a>
+            </div>
+            <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+                <a href="categories.html?brandid=0002">
+                    <img src="img/brands/brand_2.png" alt="brand logo">
+                </a>
+            </div>
+            <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+                <a href="categories.html?brandid=0003"> 
+                    <img src="img/brands/brand_3.png" alt="brand logo">
+                </a>
+            </div>
+            <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+                <a href="categories.html?brandid=0004">
+                    <img src="img/brands/brand_4.png" alt="brand logo">
+                </a>
             </div>
         </section>
     </main>
     <footer class="mdc-layout-grid mdc-layout-grid__inner bg-dark text-white text-shadow-dark">
-        <small class="mdc-layout-grid__cell--span-12 text-center">  
-            Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
-            <a class="text-white link" href="privacy.html">Privacy policy</a>
-        </small>
+        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+            <h4 class="text-gray">
+                CONTACT &amp; SUPPORT
+            </h4>
+            <address class="text-gray">
+                sales and support:<br/>
+                +0123 456 7890<br/>
+                +0432 156 7890<br/>
+                support&#64;ess.com
+            </address>
+        </div>
+        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+            <h4 class="text-gray">
+                NAVIGATE
+            </h4>
+            <div>
+                <a href="index.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Home</span>                    
+                </a>
+                <a href="categories.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Categories</span>                    
+                </a>
+                <a href="contact.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Contact</span>                    
+                </a>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+            <h4 class="text-gray">
+                Information
+            </h4>
+            <div>
+                <a href="privacy.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Privacy policy</span>                    
+                </a>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+            <h4 class="text-gray">
+                Shopping
+            </h4>
+            <div>
+                <a href="cart.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Cart</span>                    
+                </a>
+                <a href="user.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Login</span>                    
+                </a>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__cell--span-12 text-center border-t border-gray">
+            <small>  
+                Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
+                <a class="text-white link" href="privacy.html">Privacy policy</a>
+            </small>
+        </div>
     </footer>
     <script src="node_modules/material-components-web/dist/material-components-web.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

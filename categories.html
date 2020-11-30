@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/material-components-web/dist/material-components-web.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <title>Electronics Shop | Products</title>
+</head>
+<body class="bg-gray">
+    <header class="mdc-top-app-bar border-none bg-white border-b border-dark shadow">
+        <nav class="mdc-top-app-bar__row">
+            <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <a href="index.html" class="font-logo">
+                    <img class="navbar-logo float-left" src="img/navbar_logo.png" alt="logo">
+                    <span class="font-bold text-orange">
+                        Shop
+                    </span>
+                </a>
+            </div>
+            <div class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end d-block desktop-expand">
+                <button class="mdc-top-app-bar__action-item mdc-icon-button nav-menu-icon">
+                    <div class="mdc-icon-button__ripple"></div>
+                    <span class="fa fa-bars text-orange -m-05 d-block"></span>                    
+                </button>
+                <div class="nav-menu text-right">
+                    <a href="index.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-dark-gray">Home</span>                    
+                    </a>
+                    <a href="categories.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-dark-gray">Categories</span>                    
+                    </a>
+                    <a href="contact.html" class="mdc-top-app-bar__action-item mdc-button nav-item mr-2">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-dark-gray">Contact</span>                    
+                    </a>
+                    <a href="cart.html" class="mdc-top-app-bar__action-item mdc-button nav-item mr-2">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-dark-gray">
+                            <span class="fa fa-shopping-cart text-lg text-orange"></span>
+                            $0.00
+                        </span>                                         
+                    </a>
+                    <a href="user.html" class="mdc-top-app-bar__action-item mdc-button nav-item">
+                        <div class="mdc-button__ripple"></div>
+                        <span class="mdc-button__label text-dark-gray">Login</span>                    
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="categories-s1 mdc-layout-grid pt-header">
+            <div class="mdc-layout-grid__inner p-2">
+                <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-3-tablet mdc-layout-grid__cell--span-3-desktop  mdc-layout-grid__cell--align-top">
+                    <div class="mdc-card mdc-card--outlined minh-50vh shadow">
+                        <h4 class="text-left m-1 p-1 font-thin text-orange border-b border-orange">
+                            Categories
+                        </h4>
+                        <ul class="mdc-list">
+                            <li class="mdc-list-item" tabindex="0">
+                                <a href="categories.html?category=audio">
+                                    <span class="mdc-list-item__ripple"></span>
+                                    <span class="mdc-list-item__text text-dark-gray">Audio</span>
+                                </a>
+                            </li>
+                            <li class="mdc-list-item">
+                                <a href="categories.html?category=gaming">
+                                    <span class="mdc-list-item__ripple"></span>
+                                    <span class="mdc-list-item__text text-dark-gray">Gaming</span>
+                                </a>
+                            </li>
+                            <li class="mdc-list-item">
+                                <a href="categories.html?category=notebooks">
+                                    <span class="mdc-list-item__ripple"></span>
+                                    <span class="mdc-list-item__text text-dark-gray">Notebooks</span>
+                                </a>
+                            </li>
+                            <li class="mdc-list-item">
+                                <a href="categories.html?category=photography">
+                                    <span class="mdc-list-item__ripple"></span>
+                                    <span class="mdc-list-item__text text-dark-gray">Photography</span>
+                                </a>
+                            </li>
+                            <li class="mdc-list-item">
+                                <a href="categories.html?category=smartphones">
+                                    <span class="mdc-list-item__ripple"></span>
+                                    <span class="mdc-list-item__text text-dark-gray">Smartphones</span>
+                                </a>
+                            </li>
+                            <li class="mdc-list-item">
+                                <a href="categories.html?category=tv">
+                                    <span class="mdc-list-item__ripple"></span>
+                                    <span class="mdc-list-item__text text-dark-gray">TV</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-5-tablet mdc-layout-grid__cell--span-9-desktop  mdc-layout-grid__cell--align-top">
+                    <div class="mdc-card mdc-card--outlined shadow p-2 mb-3">
+                        <h4 class="border-b border-orange m-0 font-thin mb-2 text-orange">
+                            Search
+                        </h4>
+                        <div>
+                            <input type="text" 
+                                class="form-control border border-orange rounded-2 w-100"
+                                maxlength="80">
+                        </div>
+                    </div>
+
+
+                </div>   
+            </div>         
+        </section>
+    </main>
+    <footer class="mdc-layout-grid mdc-layout-grid__inner bg-dark text-white text-shadow-dark">
+        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+            <h4 class="text-gray">
+                CONTACT &amp; SUPPORT
+            </h4>
+            <address class="text-gray">
+                sales and support:<br/>
+                +0123 456 7890<br/>
+                +0432 156 7890<br/>
+                support&#64;ess.com
+            </address>
+        </div>
+        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+            <h4 class="text-gray">
+                NAVIGATE
+            </h4>
+            <div>
+                <a href="index.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Home</span>                    
+                </a>
+                <a href="categories.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Categories</span>                    
+                </a>
+                <a href="contact.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Contact</span>                    
+                </a>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+            <h4 class="text-gray">
+                Information
+            </h4>
+            <div>
+                <a href="privacy.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Privacy policy</span>                    
+                </a>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-3-desktop text-center">
+            <h4 class="text-gray">
+                Shopping
+            </h4>
+            <div>
+                <a href="cart.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Cart</span>                    
+                </a>
+                <a href="user.html" class="mdc-top-app-bar__action-item mdc-button nav-item-bottom">
+                    <div class="mdc-button__ripple"></div>
+                    <span class="mdc-button__label text-gray">Login</span>                    
+                </a>
+            </div>
+        </div>
+        <div class="mdc-layout-grid__cell--span-12 text-center border-t border-gray">
+            <small>  
+                Copyright &copy; 2020 Tomasz Pankowski. All rights reserved.
+                <a class="text-white link" href="privacy.html">Privacy policy</a>
+            </small>
+        </div>
+    </footer>
+    <script src="node_modules/material-components-web/dist/material-components-web.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
