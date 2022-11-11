@@ -79,10 +79,13 @@
     &-s1{
         @include background-blend($bg__blend--type, $color__orange);
         background-attachment: scroll;
+        min-height: 225px!important;
     }
     &-s2{
         @include background-blend($bg__blend--type, $color__dark);
         background-attachment: scroll;
+        min-height: 33vh!important;
+        padding: 30px!important;
     }
 }
 .d{
@@ -365,9 +368,6 @@
         border-radius: 20px !important;
     }
 }
-.shadow{
-    box-shadow: $box_shadow !important;
-}
 .text{
     &-blue{
         color:$color__blue!important;
@@ -405,6 +405,9 @@
         color: $color__white !important;
     }
 }
+.shadow{
+    box-shadow: 1px 1px 4px #999!important;
+}
 .top{
     &-0{
         top: 0;
@@ -427,6 +430,17 @@
 }
 a{
     text-decoration: none !important;
+}
+footer{
+    * {
+        font-size: 12px!important;
+    }
+    padding: 10px!important;
+    padding-bottom: 5px!important;
+}
+header{
+    border: none!important;
+    border-bottom: 1px solid $color__orange;
 }
 textarea{
     border: 1px solid $color__orange!important;
